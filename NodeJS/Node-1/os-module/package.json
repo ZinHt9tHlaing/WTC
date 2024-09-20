@@ -1,0 +1,15 @@
+{
+  "name": "os-module",
+  "version": "1.0.0",
+  "main": "disk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "diskusage": "^1.2.0"
+  }
+}

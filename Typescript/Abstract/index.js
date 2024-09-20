@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Car_1 = require("./Car");
+var tesla = new Car_1.Car("Tesla", "Model Y", 4, 2010);
+tesla.startEngine();
+var toyota = new Car_1.Car("Toyota", "Land Cruiser", 4, 2005);
+toyota.startEngine();
+toyota.displayInfo();
+var suzuki = new Car_1.Car("Suzuki", "swift", 4, 2008);
+suzuki.startEngine();
+suzuki.displayInfo();

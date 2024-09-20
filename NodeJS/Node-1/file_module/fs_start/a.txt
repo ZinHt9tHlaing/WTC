@@ -1,0 +1,7 @@
+
+ append text to a.txt file 
+ next line
+ append text to a.txt file 
+ next line
+ append text to a.txt file 
+ next line

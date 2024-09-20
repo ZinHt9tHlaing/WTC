@@ -1,0 +1,44 @@
+<%- include("../partials/header") %>
+<form
+  action="/users/edit/<%= user.id %>"
+  method="post"
+  class="w-50 p-5 mt-5 shadow mt-auto"
+  enctype="multipart/form-data"
+>
+  <h2>Edit User</h2>
+  <div class="mb-3">
+    <input
+      type="text"
+      name="name"
+      class="form-control"
+      value="<%- user.name %>"
+      placeholder="Name***"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <input
+      type="email"
+      name="email"
+      class="form-control"
+      value="<%- user.email %>"
+      placeholder="Email***"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <input
+      type="file"
+      name="photo"
+      class="form-control"
+      value="<%- user.photo %>"
+      placeholder="Email***"
+      required
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <a href="/register">Don't have an account? Register here</a>
+</form>
+<%- include("../partials/footer") %>

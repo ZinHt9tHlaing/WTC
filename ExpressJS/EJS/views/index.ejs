@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<h1>Hello</h1>
+
+<% if (users && users.length>0) { %>
+<h1>User List</h1>
+<% users.forEach(user => { %>
+<p>Name is <%= user.name %> job is : <%- user.bio %> </p>
+<p>Age is <%= user.age %></p>
+<% }) %>
+<% } %>
+
+<%- include('partials/footer') %>
